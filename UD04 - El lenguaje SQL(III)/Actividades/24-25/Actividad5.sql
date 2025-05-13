@@ -1,0 +1,15 @@
+
+--1
+GRANT SELECT, INSERT 
+ON Personajes
+TO PRUEBADAW
+
+--2
+GRANT SELECT(NivelDePoder), UPDATE(NivelDePoder)
+ON Transformaciones
+TO PRUEBADAW
+
+--3
+REVOKE SELECT, INSERT
+ON Personajes
+TO PRUEBADAW
